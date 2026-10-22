@@ -1,2 +1,5 @@
-# Mio Sito Web
-Un semplice progetto web contenente `index.html`, `competenze.html` e la nuova pagina `passione.html`, con uno stile gestito da `style.css` che include immagini di sfondo e animazioni CSS.
+# mio-sito
+
+- Cosa ho fatto oggi: Ho creato il mio primo sito web con HTML e CSS e l'ho pubblicato su GitHub Pages.
+- Cosa non funziona o non ho capito: Tutto chiara!!
+- Cosa mi è piaciuto: Mi è piaciuto vedere la mia pagina web funzionare online veramente.

@@ -1,43 +1,46 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("img/sfondo.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #333;
-    margin: 0;
-    padding: 40px;
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-nav {
-    margin-bottom: 30px;
+h1 {
+  color: darkblue;
 }
 
-/* Stile per i link con l'animazione di transizione richiesta */
-a {
-    display: inline-block;
-    margin-right: 15px;
-    padding: 12px 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    text-decoration: none;
-    color: #2c3e50;
-    font-weight: bold;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    /* Animazione aggiunta come richiesto */
-    transition: transform .3s ease, background-color .3s ease;
+.sotto {
+  color: gray;
 }
 
-a:hover {
-    transform: scale(1.1);
-    background-color: #ffffff;
+.scheda {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
 }
 
-h1, p {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+h2 {
+  color: teal;
+}
+
+.piede {
+  font-size: 12px;
+  color: gray;
+}
+.menu {
+  background: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+.menu a:hover {
+  color: orange;
 }

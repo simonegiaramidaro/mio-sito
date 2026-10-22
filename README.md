@@ -1,5 +1,12 @@
-# mio-sito
+# Il sito di Simone
 
-- Cosa ho fatto oggi: Ho creato il mio primo sito web con HTML e CSS e l'ho pubblicato su GitHub Pages.
-- Cosa non funziona o non ho capito: Tutto chiara!!
-- Cosa mi è piaciuto: Mi è piaciuto vedere la mia pagina web funzionare online veramente.
+Sito personale realizzato con HTML e CSS.
+
+## File del progetto
+- `index.html`: pagina iniziale e biografia.
+- `competenze.html`: competenze tecniche e personali.
+- `passione.html`: le passioni.
+- `style.css`: stile grafico, sfondo e animazioni.
+- `img/fondo.svg`: immagine usata come sfondo del sito.
+
+Apri `index.html` con un browser per visitare il sito. Tutte le pagine sono collegate tra loro e il layout si adatta anche agli schermi piccoli.

@@ -3,32 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Il mio primo sito</title>
+  <meta name="theme-color" content="#07152b">
+  <meta name="description" content="Il sito personale di Simone: informatica, competenze e passioni.">
+  <title>Home | Il sito di Simone</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <nav class="menu">
-    <a href="index.html">Home</a>
-    <a href="competenze.html">Cosa so fare</a>
-  </nav>
-  <h1>Ciao, sono Simone</h1>
-  <p class="sotto">Questo è il mio primo sito web.</p>
-
-  <div class="scheda">
-    <h2>Chi sono</h2>
-    <p>Studio informatica e mi piace creare cose nuove.</p>
-
-    <h2>Le mie passioni</h2>
-    <ul>
-      <li>I monopattini elettrici</li>
-      <li>Videogiochi</li>
-      <li>Musica</li>
-    </ul>
-
-    <h2>Il mio sogno</h2>
-    <p>Lavorare in un negozio di riparazione computer.</p>
+<body class="page-home">
+<header class="site-header">
+  <div class="site-shell">
+    <nav class="menu" aria-label="Navigazione principale">
+      <a class="brand" href="index.html" aria-label="Simone — pagina iniziale">
+        <span class="brand-mark" aria-hidden="true">S.</span>
+        <span class="brand-name">Il sito di Simone</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="competenze.html">Competenze</a>
+        <a href="passione.html">Passioni</a>
+      </div>
+    </nav>
   </div>
+</header>
+  <main class="site-shell page-enter">
+    <section class="hero" aria-labelledby="titolo-principale">
+      <div>
+        <p class="eyebrow">Benvenuto nel mio spazio digitale</p>
+        <h1 id="titolo-principale">Ciao, sono <span class="gradient-text">Simone</span></h1>
+        <p class="lead">Questo è il mio primo sito web. Studio informatica e mi piace creare cose nuove.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="competenze.html">Scopri cosa so fare <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="passione.html">Le mie passioni</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Illustrazione astratta ispirata alla tecnologia">
+        <span class="orbit" aria-hidden="true"></span>
+        <span class="orbit two" aria-hidden="true"></span>
+        <span class="core" aria-hidden="true">SG</span>
+        <span class="art-caption">Creatività · Tecnologia · Futuro</span>
+      </div>
+    </section>
 
-  <p class="piede">Sito creato da me - 2026</p>
+    <section aria-labelledby="chi-sono-titolo">
+      <div class="section-heading">
+        <h2 id="chi-sono-titolo">Qualcosa su di me</h2>
+        <p>Le cose che mi descrivono, quello che mi piace e un obiettivo per il futuro.</p>
+      </div>
+      <div class="content-grid">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">01</div>
+          <h3>Chi sono</h3>
+          <p>Studio informatica e mi piace creare cose nuove.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">02</div>
+          <h3>Le mie passioni</h3>
+          <p>I monopattini elettrici, i videogiochi e la musica.</p>
+          <div class="tag-row"><span class="tag">Monopattini</span><span class="tag">Videogiochi</span><span class="tag">Musica</span></div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">03</div>
+          <h3>Il mio sogno</h3>
+          <p>Lavorare in un negozio di riparazione computer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="bio-panel" aria-labelledby="un-passo-alla-volta">
+      <p class="eyebrow">Il mio percorso</p>
+      <h2 id="un-passo-alla-volta">Imparare facendo</h2>
+      <p>Questo sito raccoglie quello che sto imparando e le cose che mi interessano. È un progetto in crescita, proprio come le mie competenze: un passo alla volta, provando e migliorando.</p>
+    </section>
+  </main>
+<footer class="site-footer">
+  <div class="site-shell footer-inner">
+    <p>Sito creato da me - 2026</p>
+    <p>Curiosità, tecnologia e voglia di imparare.</p>
+  </div>
+</footer>
 </body>
 </html>

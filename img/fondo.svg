@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07152E"/><stop offset=".52" stop-color="#0B2450"/><stop offset="1" stop-color="#10133C"/>
+    </linearGradient>
+    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1350 240) rotate(135) scale(650 540)">
+      <stop stop-color="#1ED6F5" stop-opacity=".43"/><stop offset="1" stop-color="#1ED6F5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 980) rotate(-25) scale(650 480)">
+      <stop stop-color="#8471FF" stop-opacity=".34"/><stop offset="1" stop-color="#8471FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="300" y1="130" x2="1510" y2="970" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CE4F2" stop-opacity=".22"/><stop offset=".5" stop-color="#7997FF" stop-opacity=".08"/><stop offset="1" stop-color="#AE83FF" stop-opacity=".20"/>
+    </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" stroke="#B8DFFF" stroke-opacity=".07" stroke-width="1"/>
+      <circle cx="1" cy="1" r="1.4" fill="#8CEBFF" fill-opacity=".22"/>
+    </pattern>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <rect width="1800" height="1200" fill="url(#cyan)"/>
+  <rect width="1800" height="1200" fill="url(#violet)"/>
+  <ellipse cx="1360" cy="870" rx="430" ry="165" transform="rotate(-23 1360 870)" fill="#26D9F0" fill-opacity=".09" filter="url(#blur)"/>
+  <path d="M-150 780C250 590 420 1110 830 900C1220 700 1260 370 1960 470" stroke="url(#ribbon)" stroke-width="170" stroke-linecap="round"/>
+  <path d="M-120 820C260 630 455 1120 850 920C1230 728 1310 410 1910 510" stroke="#5FE7F4" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M-100 865C270 675 480 1160 880 955C1260 760 1360 450 1920 550" stroke="#A5ACFF" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="1405" cy="260" r="190" stroke="#9AEFFF" stroke-opacity=".10" stroke-width="1.5"/>
+  <circle cx="1405" cy="260" r="250" stroke="#9AEFFF" stroke-opacity=".07" stroke-width="1.5"/>
+  <circle cx="1405" cy="260" r="310" stroke="#9AEFFF" stroke-opacity=".04" stroke-width="1.5"/>
+  <rect width="1800" height="1200" fill="url(#grid)"/>
+</svg>

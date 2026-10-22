@@ -1,46 +1,43 @@
+/* Stile per il corpo della pagina con l'immagine di sfondo richiesta */
 body {
-  background: lightblue;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/sfondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
 }
 
-h1 {
-  color: darkblue;
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
 }
 
-.sotto {
-  color: gray;
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    padding: 5px 10px;
+    /* Animazione */
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
-.scheda {
-  background: white;
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: left;
+a:hover {
+    transform: scale(1.1); /* Effetto ingrandimento */
+    color: #ff4500;
 }
 
-h2 {
-  color: teal;
-}
-
-.piede {
-  font-size: 12px;
-  color: gray;
-}
-.menu {
-  background: darkblue;
-  padding: 10px;
-  border-radius: 10px;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 12px;
-}
-.menu a:hover {
-  color: orange;
+.card, header, main, footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
